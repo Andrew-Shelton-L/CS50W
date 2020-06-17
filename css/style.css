@@ -1,0 +1,173 @@
+#abt-nav a {
+  font-style: italic;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  background-color: blue;
+}
+
+#top-nav a {
+  padding-left: 30px;
+  color: white;
+  font-size: large;
+}
+
+#top-nav a:hover {
+  color: black;
+}
+
+@media print {
+  footer > div {
+    display: none;
+  }
+  html::before {
+    display: none;
+  }
+}
+
+#index {
+  color: white;
+}
+
+#index-link {
+  display: -ms-grid;
+  display: grid;
+  font-size: large;
+  padding-bottom: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+#index-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px;
+}
+
+#ans {
+  font-size: 17px;
+}
+
+#ques {
+  font-size: 23px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#index-link, #index-img {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+#index-link {
+  border: 10px;
+}
+
+#index-a {
+  color: blanchedalmond;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  font-size: medium;
+  color: cornsilk;
+  background-color: #333333;
+}
+
+footer ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+footer li {
+  padding-top: 10px;
+}
+
+footer div {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+footer a {
+  color: white;
+}
+
+#foo-cpy {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-top: 1px solid white;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+#foo-img {
+  width: 44px;
+  height: 43px;
+}
+
+#about-me {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+#about-article {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px black;
+  border-bottom-style: groove;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+html::after, html::before {
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+html::after {
+  text-align: center;
+  font-size: medium;
+  content: "This is Website is created for the project 0 of CS50W";
+  color: #fffdfd;
+  background-color: #417fdb;
+  border-color: #faebcc;
+  display: block;
+  bottom: 0px;
+}
+
+html::before {
+  top: 0px;
+}
+/*# sourceMappingURL=style.css.map */
